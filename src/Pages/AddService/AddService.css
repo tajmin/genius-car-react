@@ -1,0 +1,25 @@
+.add-service form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.add-service form input, textarea {
+    width: 45%;
+    margin: 10px auto;
+    padding: 5px;
+    border: 1px solid lightgrey;
+}
+
+.add-service form input[type=submit] {
+    background-color: lightseagreen;
+    color: white;
+    padding: 8px;
+    border: none;
+    transition: background-color 0.25s ease-in-out;
+}
+.add-service form input[type=submit]:hover {
+    background-color: rgb(28, 139, 134);
+}
